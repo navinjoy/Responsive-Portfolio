@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- all the html code for the body -->
+    <div class="wrapper">
+        <header>
+            <h1><a href="index.html">Navin Jammula</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="clearfix">
+        </div>
+        <hr>
+        <div class="clearfix mainbody">
+            <section class="mainsec">
+                <h1>Contact</h1>
+                <!-- <h1>About Me</h1> -->
+                <hr>
+                <br>
+                <form>
+                    Name
+                    <br>
+                    <input type="text" name="name" value="your name">
+                    <br>
+                    <br> Email
+                    <br>
+                    <input type="text" name="email" value="example@email.com">
+                    <br>
+                    <br> Message
+                    <br>
+                    <input type="text" id="message" name="message" value="">
+                    <br>
+                    <br>
+                    <input id="submit" onclick="comingSoon()" type="submit" value="Submit">
+                </form>
+            </section>
+            <aside id="connect">
+                <h2>Connect with Me</h2>
+                <hr>
+                <ul>
+                    <li><a href="https://github.com/navinjoy" target="_blank"><img src="assets/images/git.png"></li>
+                    <li><a href="https://www.linkedin.com/in/navinkumarj/" target="_blank"><img src="assets/images/linkedin.png"></li>
+                    <li><a href="https://stackoverflow.com/users/8846656/coolguy" target="_blank"><img src="assets/images/stackovrflw.png"></li>
+                </ul>
+            </aside>
+        </div>
+        <footer class="footer">
+            <hr>
+            <h4>@ Copyright 2017 Navin Jammula</h4>
+        </footer>
+    </div>
+    <script type="text/javascript">
+        function comingSoon() {
+            alert("Coming soon...\nThis feature not implemented yet !! ")
+        }
+    </script>
+</body>
+
+</html>

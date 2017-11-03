@@ -1,0 +1,319 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/background.png");
+}
+
+.mainsec p {
+    color: #777777;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    margin: 0px 10px;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    position: fixed;
+    right: 50px;
+}
+
+nav {
+    display: block;
+    position: relative;
+}
+
+nav a {
+    color: #ccc;
+}
+
+nav a:hover {
+    background: #e2dcdc;
+    font-size: 20px;
+    color: grey;
+}
+
+header {
+    background: #ffffff;
+    height: 80px;
+    border-color: #cccccc;
+}
+
+h1 h2 {
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+header h1 {
+
+
+    position: fixed;
+    left: 50px;
+    float: left;
+    display: flex;
+    align-items: center;
+    background: #4aaaa5;
+    height: 80px;
+    padding: 0px 20px 0px;
+    font-size: 35px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    list-style-type: none;
+    float: left;
+    margin: 25px 10px;
+    padding-right: 10px;
+    border-right: 1px solid #bbb;
+}
+
+header li:last-child {
+    border-right: none;
+    padding-right: 0px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.mainsec {
+    margin-left: 50px;
+    margin-top: 30px;
+    align-self: inherit;
+    padding: 20px;
+    width: 610px;
+    height: 600px;
+    background-color: #ffffff;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    border-color: #dddddd;
+    /*border-width: 10px;*/
+    /*position: absolute;*/
+}
+
+#portfolio {
+    height: 600px;
+}
+
+.portsection {
+    padding: 20px;
+    /*margin-bottom: 20px;*/
+    background: #ccc;
+    /*width: 33.3%*/
+}
+
+#boxsec1 {
+    float: left;
+}
+
+.wrapper hr {
+    height: 2px;
+    background: #cccccc;
+    border: none;
+}
+
+.mainsec hr {
+    margin-bottom: 20px;
+    height: 2px;
+    background: #cccccc;
+    border: none;
+}
+
+.mainsec #selfpic {
+    width: 140px;
+    height: 120px;
+    padding: 0px 10px 5px 0px;
+    float: left;
+}
+
+.mainsec #selfpic:hover {
+    width: 420px;
+    height: 360px;
+}
+
+.mainsec p {
+    /*padding: 20px;*/
+    color: grey;
+    /*float: left;*/
+}
+
+.mainsec h1 {
+    font-size: 30px;
+    color: #4aaaa5;
+    margin: 15px;
+}
+
+#connect img {
+    width: 60px;
+    height: 60px;
+}
+
+hr {
+    margin: 0px;
+}
+
+.mainbody hr {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+#connect h2 {
+    align-content: center;
+    padding: 5px;
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 20px;
+}
+
+#connect {
+    margin-top: 30px;
+    padding: 20px;
+    width: 230px;
+    height: 120px;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+#connect li {
+    float: left;
+    padding: 7px;
+    margin-top: 5px;
+}
+
+#connect img:hover {
+    border-radius: 50%
+}
+
+.footer hr {
+    height: 7px;
+    border: 0px;
+    background: #4aaaa5;
+}
+
+footer {
+    background-color: #666666;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 80px;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+footer h4 {
+    font-size: x-small;
+    padding: 27px;
+    color: lightgrey;
+}
+
+form input {
+    width: 400px;
+    margin-top: 5px;
+    height: 25px;
+    color: lightgrey;
+}
+
+#submit {
+    width: 80px;
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 0 !important;
+    height: auto;
+}
+
+#message {
+    height: 100px;
+    width: 400px;
+}
+
+.portfolio {
+    width: 150px;
+    height: 150px;
+    border-width: 2px;
+    border-color: black;
+    float: left;
+}
+
+.box-set {
+    position: relative;
+}
+
+.box {
+    position: relative;
+    display: grid;
+    background: lightgrey;
+    border: 1px solid lightgrey;
+    width: 200px;
+    height: 150px;
+}
+
+.box #portfolioimg {
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+}
+
+.box-1 {
+    position: absolute;
+    left: 10%;
+}
+
+.box-2 {
+    position: absolute;
+    right: 10%;
+    /*right: -40px;*/
+}
+
+.box-3 {
+    position: absolute;
+    left: 10%;
+    top: 180px;
+}
+
+.box-4 {
+    position: absolute;
+    right: 10%;
+    top: 180px;
+}
+
+
+.box-5 {
+    left: 10%;
+    top: 360px;
+}
+
+.imagetext {
+    position: absolute;
+    padding: 8px 0px;
+    margin-top: 110px;
+    width: 200px;
+    text-align: center;
+    left: : 10px;
+    background: #4aaaa5;
+    color: #ffffff;
+}
