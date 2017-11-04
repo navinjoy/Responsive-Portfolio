@@ -4,12 +4,10 @@ body {
 }
 
 .mainsec p {
-    color: #777777;
-    text-align: justify;
+    color: #777777 text-align: justify;
     letter-spacing: 1px;
     line-height: 30px;
     margin: 0px 10px;
-
 }
 
 .clearfix:after {
@@ -96,7 +94,7 @@ li a {
     align-self: inherit;
     padding: 20px;
     width: 610px;
-    height: 600px;
+    height: auto;
     background-color: #ffffff;
     float: left;
     margin-right: 40px;
@@ -171,6 +169,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 0px;
 }
+
 
 #connect h2 {
     align-content: center;
@@ -316,4 +315,115 @@ form input {
     left: : 10px;
     background: #4aaaa5;
     color: #ffffff;
+}
+
+@media only screen and (max-width: 640px) {
+
+   header h1,
+   header ul {
+    width: 100%;
+    /*margin: 0%;*/
+    /*padding: 0%;*/
+    position: relative;
+    left: 0px;
+    float: left;
+   }
+
+   header h1 {
+    display: inline;
+    padding: 2% 0%;
+    margin: 0px;
+    height: auto;
+    text-align: center;
+   }
+    
+    header ul {
+        background: white;
+    }
+
+    header ul li {
+        width: 33%;
+        padding: 0%;
+        margin: 2% 0%;
+        display: inherit;
+        text-align: center;
+    }
+
+   .mainsec,
+   #connect {
+        width: 90%;
+        float: left;
+        margin: 5%;
+        float: left;
+        position: relative;
+        padding: 3%;
+        margin: 1%;
+
+    }
+
+    .mainsec #selfpic {
+        width: 95%;
+        height: 50%;
+        float: left;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    #connect h2 {
+        text-align: left;
+    }
+
+/*    .mainsec #selfpic {
+        width: 40%;
+        height: 30%;
+    }*/
+
+    .mainsec p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+    .mainsec,
+    #connect {
+        width: 80%;
+        float: left;
+        margin: 5%;
+    }
+
+    #connect h2 {
+        text-align: left;
+    }
+
+    .mainsec #selfpic {
+        width: 40%;
+        height: 30%;
+    }
+
+    .mainsec p {
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+    .mainsec {
+        width: 45%;
+    }
+
+    .mainsec #selfpic {
+        width: 95%;
+        height: 50%;
+        float: left;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    .mainsec p {
+        width: 95%;
+        float: left;
+        text-align: justify;
+    }
+    .connect {
+        width: 30%;
+    }
 }
