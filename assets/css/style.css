@@ -319,24 +319,22 @@ form input {
 
 @media only screen and (max-width: 640px) {
 
-   header h1,
-   header ul {
-    width: 100%;
-    /*margin: 0%;*/
-    /*padding: 0%;*/
-    position: relative;
-    left: 0px;
-    float: left;
-   }
+    header h1,
+    header ul {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        float: left;
+    }
 
-   header h1 {
-    display: inline;
-    padding: 2% 0%;
-    margin: 0px;
-    height: auto;
-    text-align: center;
-   }
-    
+    header h1 {
+        display: inline;
+        padding: 2% 0%;
+        margin: 0px;
+        height: auto;
+        text-align: center;
+    }
+
     header ul {
         background: white;
     }
@@ -349,8 +347,9 @@ form input {
         text-align: center;
     }
 
-   .mainsec,
-   #connect {
+    .mainsec,
+    #connect,
+    #portfolio {
         width: 90%;
         float: left;
         margin: 5%;
@@ -358,7 +357,7 @@ form input {
         position: relative;
         padding: 3%;
         margin: 1%;
-
+        height: auto;
     }
 
     .mainsec #selfpic {
@@ -373,13 +372,38 @@ form input {
         text-align: left;
     }
 
-/*    .mainsec #selfpic {
-        width: 40%;
-        height: 30%;
-    }*/
-
     .mainsec p {
         text-align: justify;
+    }
+
+    [class*="box box-"] {
+        position: relative;
+        left: 2%;
+        width: 90%;
+        height: 450px;
+        float: left;
+        margin: 1% 0%;
+        padding: 0%;
+        top: auto;
+    }
+
+    [class*="box box-"] .imagetext {
+        width: 100%;
+        margin-top: 75%;
+        padding: 15px 0px;
+    }
+
+    .box #portfolioimg {
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+
+    form input, #message {
+        width: 90%;
+    }
+    
+    footer {
+        position: fixed;
     }
 }
 
@@ -403,16 +427,23 @@ form input {
     .mainsec p {
         text-align: justify;
     }
+
+    form input, #message {
+        width: 90%;
+    }
+
 }
 
 @media only screen and (max-width: 980px) and (min-width: 769px) {
-    .mainsec {
+    .mainsec,
+    #portfolio {
         width: 45%;
+        height: auto;
     }
 
     .mainsec #selfpic {
         width: 95%;
-        height: 50%;
+        height: 80%;
         float: left;
         padding: 0px;
         margin-bottom: 10px;
@@ -425,5 +456,35 @@ form input {
     }
     .connect {
         width: 30%;
+    }
+
+    [class*="box box-"] {
+        position: relative;
+        left: 2%;
+        width: 330px;
+        height: 250px;
+        float: left;
+        margin: 1% 0%;
+        padding: 0%;
+        top: auto;
+    }
+
+    [class*="box box-"] .imagetext {
+        width: 100%;
+        margin-top: 60%;
+    }
+
+    .box #portfolioimg {
+        width: 100%;
+        height: -webkit-fill-available;
+    }
+
+    form input, #message {
+        width: 90%;
+    }
+
+
+    footer {
+        position: fixed;
     }
 }
